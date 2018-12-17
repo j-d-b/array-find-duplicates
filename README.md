@@ -3,6 +3,8 @@ Find duplicate values in an array.
 
 `array-find-duplicates` uses [strict equality](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Identity) (`===`) to determine duplicates.
 
+*O(n log n) complexity.*
+
 ## Usage
 ```
 npm install array-find-duplicates
